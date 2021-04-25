@@ -1,14 +1,26 @@
 {
   "name": "recipe",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "repository": "https://github.com/EspiraMarvin/recipe-tailwind-app.git",
-  "author": "EspiraMarvin <espiramarvin@gmail.com>",
-  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.12",
+    "tailwindcss": "^2.1.2"
+  },
+  "devDependencies": {},
   "scripts": {
     "build-css": "tailwindcss build src/style.css -o public/styles.css"
   },
-  "dependencies": {
-    "tailwindcss": "^2.1.2"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EspiraMarvin/recipe-tailwind-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EspiraMarvin/recipe-tailwind-app/issues"
+  },
+  "homepage": "https://github.com/EspiraMarvin/recipe-tailwind-app#readme"
 }
