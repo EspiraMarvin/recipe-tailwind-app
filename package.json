@@ -5,6 +5,9 @@
   "repository": "https://github.com/EspiraMarvin/recipe-tailwind-app.git",
   "author": "EspiraMarvin <espiramarvin@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build-css": "tailwindcss build src/style.css -o public/styles.css"
+  },
   "dependencies": {
     "tailwindcss": "^2.1.2"
   }
